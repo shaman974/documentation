@@ -7,6 +7,7 @@
 ### Option générique
 
 -d : detaché
+
 -a : tout
 
 ### Compose
