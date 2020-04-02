@@ -9,3 +9,11 @@ spring initializr
 https://start.spring.io/
 
 Generateur de bannière : https://devops.datenkollektiv.de/banner.txt/index.html
+
+## Core
+
+https://docs.spring.io/spring/docs/current/spring-framework-reference/index.html
+
+### WEB
+
+https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html
