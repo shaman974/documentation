@@ -42,5 +42,19 @@ Forcer le nom de l'image :
 -t
 
 ```
-docker build . -t perso-gateway
+docker build . -t <NOM_CONTENER>
 ```
+
+#### Log
+
+
+```
+docker logs <CONTAINER>
+```
+-f : suivre les logs
+
+```
+docker logs <CONTAINER> -f
+```
+
+https://docs.docker.com/engine/reference/commandline/logs/
