@@ -17,3 +17,9 @@ https://docs.spring.io/spring/docs/current/spring-framework-reference/index.html
 ### WEB
 
 https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html
+
+### Validation de bean
+
+https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#validation-beanvalidation
+
+https://beanvalidation.org/
