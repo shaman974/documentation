@@ -29,6 +29,18 @@ arret du docker compose
 docker-compose down
 ```
 
+voir les images qui tournent
+
+```
+docker-compose images
+```
+
+voir les logs d'un docker compose (avec l'option pour voir le défilement)
+
+```
+docker-compose logs -f
+```
+
 ### Docker
 
 #### Build de l'image
