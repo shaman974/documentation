@@ -45,16 +45,59 @@ Forcer le nom de l'image :
 docker build . -t <NOM_CONTENER>
 ```
 
-#### Log
-
+#### Log d'un conteneur
 
 ```
-docker logs <CONTAINER>
+docker logs <CONTAINER_ID>
 ```
 -f : suivre les logs
 
 ```
-docker logs <CONTAINER> -f
+docker logs <CONTAINER_ID> -f
 ```
 
 https://docs.docker.com/engine/reference/commandline/logs/
+
+#### Lancement d'un conteneur
+
+#### Arret d'un conteneur
+
+```
+docker stop <CONTAINER_ID>
+```
+#### Consultation des conteneurs
+
+Uniquement UP :
+
+```
+docker ps
+```
+
+Tous :
+
+```
+docker ps -a
+```
+
+#### Suppression d'un conteneur
+
+```
+docker rm <CONTAINER_ID>
+```
+
+#### Consulter les images
+
+```
+docker images
+```
+
+Toutes
+
+```
+docker images -a
+```
+#### Supprimer une image
+
+```
+docker rmi <IMAGES_ID>
+```
