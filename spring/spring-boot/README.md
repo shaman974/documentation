@@ -10,6 +10,10 @@ Documentation officielle :
 
 https://docs.spring.io/spring-boot/docs/2.2.6.RELEASE/reference/html/index.html
 
+Gradle :
+
+https://docs.spring.io/spring-boot/docs/2.2.6.RELEASE/gradle-plugin/reference/html/
+
 # dependance de version
 
 https://docs.spring.io/spring-boot/docs/2.2.6.RELEASE/reference/html/appendix-dependency-versions.html#appendix-dependency-versions

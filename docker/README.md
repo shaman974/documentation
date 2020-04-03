@@ -17,6 +17,11 @@ lancement d'un docker compose
 ```
 docker-compose up
 ```
+lancement d'un docker avec build
+
+```
+docker-compose up --build
+```
 
 arret du docker compose
 
