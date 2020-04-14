@@ -16,3 +16,7 @@ https://www.christopheducamp.com/2013/12/15/github-pour-nuls-partie-1/
 
 https://www.christopheducamp.com/2013/12/16/github-pour-nuls-partie-2/
 
+### supression commit
+
+https://makina-corpus.com/blog/metier/archives/git-annuler-proprement-un-commit-apres-un-push
+
