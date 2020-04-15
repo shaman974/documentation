@@ -17,3 +17,7 @@ https://docs.spring.io/spring-boot/docs/2.2.6.RELEASE/gradle-plugin/reference/ht
 # dependance de version
 
 https://docs.spring.io/spring-boot/docs/2.2.6.RELEASE/reference/html/appendix-dependency-versions.html#appendix-dependency-versions
+
+# Plugin gradle
+
+https://docs.spring.io/spring-boot/docs/2.2.6.RELEASE/gradle-plugin/reference/html/#introduction
