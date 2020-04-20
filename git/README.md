@@ -20,3 +20,20 @@ https://www.christopheducamp.com/2013/12/16/github-pour-nuls-partie-2/
 
 https://makina-corpus.com/blog/metier/archives/git-annuler-proprement-un-commit-apres-un-push
 
+### Quelques commandes
+
+faire un revert sur un commit
+```
+git revert <numeroCommit>
+```
+
+voir toutes les branches
+```
+git branch -a
+```
+supprimer une branche
+```
+git branch -d <nomBranche>
+```
+  
+
