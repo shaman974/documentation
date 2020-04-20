@@ -2,6 +2,8 @@
 
 ## Documentation
 
+https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
+
 ## Ligne
 
 ### Option générique
