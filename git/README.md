@@ -36,4 +36,9 @@ supprimer une branche
 git branch -d <nomBranche>
 ```
   
+### Rebase
 
+Modificier les 2 derniers Commit
+```
+git rebase -i HEAD~2
+```
