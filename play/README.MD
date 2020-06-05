@@ -14,6 +14,14 @@ Hub de projet officiel play :
 
 https://developer.lightbend.com/start/?group=play
 
+https://www.playframework.com/documentation/2.8.x/Tutorials
+
+Les possibilités officielles
+
+https://www.playframework.com/documentation/2.8.x/JavaHome
+
+ => JSON : https://www.playframework.com/documentation/2.8.x/JavaJsonActions
+
 
 # API utilisées par play
 
