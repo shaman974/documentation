@@ -40,3 +40,9 @@ https://github.com/google/guice
 comparaison avec spring :
 
 https://www.baeldung.com/guice-spring-dependency-injection
+
+# AKKA
+
+https://doc.akka.io/docs/akka/current/actors.html
+
+https://www.baeldung.com/akka-actors-java
