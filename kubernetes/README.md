@@ -26,6 +26,8 @@ https://github.com/rancher/k3d
 
 ## Commande en vrac
 
+https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands
+
 https://kubernetes-snippets.com
 
 ### base
@@ -38,7 +40,16 @@ https://kubernetes-snippets.com
   
   kubectl create ns testns
   
+  kubectl delete pods commande-kube
+  
 ### debug
+
+voir ce qui c'est passé
+
+kubectl describe pods <<nom du pod>>
+
+kubectl describe pods commande-kube
+
 
 créer un conteneur de debug
 
