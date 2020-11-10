@@ -24,6 +24,23 @@ https://k3d.io
 
 https://github.com/rancher/k3d
 
+creer un nouveau cluster
+
+ k3d cluster create mycluster
+ 
+ avec mapping du repository
+ 
+  k3d cluster create mycluster --volume "/Users/rvetrano/workspace/perso/test-kube-commande/registries.yaml:/etc/rancher/k3s/registries.yaml"
+
+avec mapping du ingress pour le developpeur et du volume
+
+k3d cluster create mycluster --volume "/Users/rvetrano/workspace/perso/test-kube-commande/registries.yaml:/etc/rancher/k3s/registries.yaml" --api-port 6550 -p "8081:8079@loadbalancer" --agents 2
+
+
+supprimer un cluster
+
+k3d cluster delete mycluster
+
 ## Commande en vrac
 
 https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands
@@ -40,7 +57,13 @@ https://kubernetes-snippets.com
   
   kubectl create ns testns
   
+  kubectl config set-context --current --namespace=testns
+  
   kubectl delete pods commande-kube
+  
+  kubectl apply -f k3sFile.yml
+  
+  kubectl -n testns delete pod,svc,replicasets,deployments --all
   
 ### debug
 
@@ -50,7 +73,11 @@ kubectl describe pods <<nom du pod>>
 
 kubectl describe pods commande-kube
 
+kubectl logs -f commande-kube
+
 
 créer un conteneur de debug
 
-  kubectl run -it —rm —image=alpine debug
+  kubectl run -it --rm --image=debian:9-slim debug
+  apt-get update
+  apt-get install curl
