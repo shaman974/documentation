@@ -26,6 +26,8 @@ https://github.com/rancher/k3d
 
 ## Commande en vrac
 
+https://kubernetes-snippets.com
+
 ### base
 
   kubectl cluster-info
