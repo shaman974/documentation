@@ -41,6 +41,10 @@ supprimer un cluster
 
 k3d cluster delete mycluster
 
+k3d cluster list
+
+k3d cluster start mycluster
+
 ## Commande en vrac
 
 https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands
