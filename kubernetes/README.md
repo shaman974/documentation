@@ -67,7 +67,11 @@ https://kubernetes-snippets.com
   
   kubectl apply -f k3sFile.yml
   
-  kubectl -n testns delete pod,svc,replicasets,deployments --all
+  kubectl -n testns delete pod,svc,replicasets,deployments,ingress --all
+  
+  kubectl edit ingress test
+  
+  kubectl describe ingress myapp
   
 ### debug
 
