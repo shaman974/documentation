@@ -89,3 +89,7 @@ créer un conteneur de debug
   kubectl run -it --rm --image=debian:9-slim debug
   apt-get update
   apt-get install curl
+
+### port-forward
+
+https://kubernetes.io/docs/tasks/access-application-cluster/port-forward-access-application-cluster/
