@@ -73,6 +73,10 @@ https://kubernetes-snippets.com
   
   kubectl describe ingress myapp
   
+  changer le nombre de replica
+  
+  kubectl scale --replicas=0 deployment <<nom du pods>>
+  
 ### debug
 
 voir ce qui c'est passé
@@ -83,6 +87,9 @@ kubectl describe pods commande-kube
 
 kubectl logs -f commande-kube
 
+Entrer sur le pod shell-demo
+
+kubectl exec -it shell-demo -- /bin/bash
 
 créer un conteneur de debug
 
@@ -93,3 +100,5 @@ créer un conteneur de debug
 ### port-forward
 
 https://kubernetes.io/docs/tasks/access-application-cluster/port-forward-access-application-cluster/
+
+kubectl port-forward service/rabbitMq 15672:15672
